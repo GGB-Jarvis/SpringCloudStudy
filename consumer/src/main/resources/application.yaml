@@ -1,0 +1,14 @@
+server:
+  port: 8763
+#  servlet:
+#    context-path: /${spring.application.name}
+
+spring:
+  application:
+    name: consumer
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        enabled: true
